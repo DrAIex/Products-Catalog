@@ -4,11 +4,10 @@
   "description": "Каталог товаров на Next.js, Material UI и Zustand.",
   "main": "next.config.js",
   "scripts": {
-    "dev": "NODE_ENV=development next dev",
-    "build": "NODE_ENV=production next build",
+    "dev": "next dev",
+    "build": "next build",
     "start": "next start",
-    "lint": "next lint",
-    "deploy": "NODE_ENV=production DISABLE_FONT_OPTIMIZATION=true next build && touch out/.nojekyll && echo '' > out/.nojekyll && cp README.md out/ && gh-pages -d out"
+    "lint": "next lint"
   },
   "dependencies": {
     "@emotion/cache": "^11.11.0",
@@ -28,10 +27,9 @@
     "@types/react-dom": "^18.2.19",
     "eslint": "^8",
     "eslint-config-next": "14.1.0",
-    "gh-pages": "^6.3.0",
     "typescript": "^5.3.3"
   },
   "keywords": [],
-  "author": "",
+  "author": "Aleksei Drobkov",
   "license": "ISC"
 }

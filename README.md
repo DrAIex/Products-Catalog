@@ -12,10 +12,9 @@ npm install
 npm run dev
 ```
 
-## Сборка и деплой
-
-```bash
-npm run deploy
+## Деплой
+```
+https://productscatalog-msksmsusr-als-projects-114fa6b1.vercel.app/
 ```
 
 ## Функциональность
